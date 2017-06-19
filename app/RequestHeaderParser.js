@@ -1,5 +1,5 @@
 module.exports = function getSystemInfo(app) {
-    app.get('/', function (req, res) {
+    app.get('/whoami', function (req, res) {
     res.json(getSystemInfo(req));
 });
 
